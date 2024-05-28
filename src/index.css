@@ -1,0 +1,17 @@
+nav a{
+    text-decoration: none;
+    padding: 10px;
+}
+#headernav{
+    color: black !important;
+}
+input{
+    width:60%;
+    display: flex;
+    justify-content:flex-start;
+  }
+  label{
+    display: flex;
+    justify-content:flex-end;
+    padding-right:30px;
+  }
