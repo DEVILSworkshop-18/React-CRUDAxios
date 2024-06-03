@@ -47,7 +47,7 @@ const Create = () => {
       const handleSubmit = async (e) => {
         e.preventDefault();
         await axios
-          .post("https://6652d5ae813d78e6d6d65804.mockapi.io/api/user/", createData)
+          .post("https://665d5aa3e88051d6040638ff.mockapi.io/api/user/", createData)
           .then((res) => console.log(res.data))
           .catch((error) => console.log(error));
     

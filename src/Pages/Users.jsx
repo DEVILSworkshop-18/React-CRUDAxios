@@ -11,12 +11,12 @@ const Users = ({setId}) => {
   }, [deleteData]);
   const fetchData = async () => {
     await axios
-      .get("https://6652d5ae813d78e6d6d65804.mockapi.io/api/user")
+      .get("https://665d5aa3e88051d6040638ff.mockapi.io/api/user")
       .then((res) => setUsers(res.data))
       .catch((error) => console.log(error));
   };
   const handleDelete=async(id)=>{
-    await axios.delete(`https://6652d5ae813d78e6d6d65804.mockapi.io/api/user/${id}`)
+    await axios.delete(`https://665d5aa3e88051d6040638ff.mockapi.io/api/user/${id}`)
     .then(res=>setDeleteData(res.data))
     .catch((error)=>console.log(error))
   }
