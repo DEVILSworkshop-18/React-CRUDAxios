@@ -238,7 +238,7 @@ const Create = () => {
                       className="rounded-3"
                       type="text"
                       name="companyname"
-                      value={createData.company.companyname}
+                      value={createData.company.name}
                       onChange={handleChange}
                     />
                   </td>

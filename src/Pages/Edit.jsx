@@ -244,7 +244,7 @@ const Edit = ({id}) => {
                       className="rounded-3"
                       type="text"
                       name="companyname"
-                      value={editData.company.companyname}
+                      value={editData.company.name}
                       onChange={handleChange}
                     />
                   </td>

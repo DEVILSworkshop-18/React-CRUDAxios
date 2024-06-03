@@ -77,7 +77,7 @@ const Users = ({setId}) => {
                 <td>{ele.address.geo.lng}</td>
                 <td>{ele.phone}</td>
                 <td>{ele.website}</td>
-                <td>{ele.company.companyname}</td>
+                <td>{ele.company.name}</td>
                 <td>{ele.company.catchPhrase}</td>
                 <td>{ele.company.ds}</td>
                 <td>
